@@ -1,0 +1,14 @@
+name: DeathSwap
+main: me.SwapMe.Main
+version: 0.1
+commands:
+  swap:
+    description: swaps the players
+    aliases: []
+    permission: DeathSwap.swap
+    usage: Type /swap <player1> <player2>
+  clearpots:
+    description: clears all potions
+    aliases: [clrpots]
+    permission: DeathSwap.clearpotion
+    usage: /clearpotion
